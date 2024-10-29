@@ -1,0 +1,34 @@
+body {
+    background: rgb(255, 113, 219);
+    font: normal 20pt Arial;
+    
+}
+
+header {
+    color: white;
+    text-align: center; /* centralizar texto*/
+}
+ section {
+    background: white;
+    border-radius: 10px; /* raio da borda, pra deixar arredondado*/
+    padding: 15px; /* pra dar espaço*/
+    width: 500px;
+    margin: auto; /* pra centralizar*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425); /* colocar sombra embaixo, e os numeros sao as posições*/
+ }
+    div {
+        padding: 5px;
+    }
+
+  .imagem-redonda {
+    width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+
+ footer {
+    color: white;
+    text-align: center; 
+    font-style: italic;
+ }
